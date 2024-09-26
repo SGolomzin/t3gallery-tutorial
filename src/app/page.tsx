@@ -23,8 +23,8 @@ async function Images() {
 
   return (
     <div className="flex flex-wrap gap-2">
-      {[...images, ...images, ...images].map((image, index) => (
-        <div key={image.id + '-' + index} className="flex w-48 flex-col">
+      {images && images.map((image, index) => (
+        <div key={image.id} className="flex w-48 flex-col">
           <img src={image.url}/>
           <div>{image.name}</div>
         </div>
@@ -44,7 +44,6 @@ export default async function HomePage() {
       <SignedIn>
         <Images />
       </SignedIn>
-     Hello (gallery in progress)
     </main>
   );
 }
