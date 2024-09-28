@@ -21,11 +21,6 @@ export default async function FullPageImageView(props: { id: number }){
 					<span>Created On</span>
 					<span>{new Date(image.createdAt).toLocaleDateString()}</span>
 				</div>
-				<div className="flex flex-col p-2">
-					<span>Uploaded By:</span>
-					<span>{uploaderInfo.fullName}</span>
-				</div>
-
 			</div>
 		</div>
 	);
