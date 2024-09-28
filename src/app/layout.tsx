@@ -26,10 +26,14 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`font-sans ${GeistSans.variable} flex-col gap-4`}>
-          <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} />
-          <TopNav />
-          {children}
+        <body className={`font-sans ${GeistSans.variable}`}>
+          <div className="h-screen grid grid-rows-[auto,1fr]">
+            <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} />
+            <TopNav />
+            <main className="overflow-y-scroll">
+              {children}
+            </main>
+          </div>
           {modal}
           <div id="modal-root" />
         </body>
