@@ -5,6 +5,7 @@ Original [YouTube tutorial link](https://www.youtube.com/watch?v=d5x0JCZbAJs).
 ## Tech stack
  - [NextJS](https://nextjs.org/) - framework
  - [Vercel](https://vercel.com/) - deployment base
+ - [Drizzle](https://orm.drizzle.team/) - ORM
  - [Clerk](https://clerk.com/) - authentication holder
  - [shadcn-ui](https://ui.shadcn.com/) - UI library
  - [UploadThing](https://uploadthing.com/) - files upload
