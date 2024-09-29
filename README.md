@@ -32,7 +32,7 @@ Original [YouTube tutorial link](https://www.youtube.com/watch?v=d5x0JCZbAJs).
 - [x] Ratelimiting (upstash)
 
 ## Challenges 
- - [ ] fix the page layout for images of different resolutions
- - [ ] "Selecting" images on the gallery page
+ - [x] fix the page layout for images of different resolutions
+ - [x] "Selecting" images on the gallery page
  - [ ] "Infinite scroll"
  - [ ] Folders (Albums)
